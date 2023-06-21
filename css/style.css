@@ -11,14 +11,58 @@
   border: 5px solid #000;
   font-size: 22px;
   color: #250cc8;
-  margin: 20px auto;
   background-color: aqua;
+}
+
+.box.special-box {
+  height: 50px;
+  padding: 10px;
+  background-color: brown;
+  border: none;
+  z-index: 1;
+}
+
+.little-box {
+  width: 50px;
+  height: 50px;
+  background-color: azure;
+  border: 1px solid red;
 }
 
 ol {
   margin-left: 40px;
 }
 
+body {
+  height: 200px;
+}
+
 .homework {
   color: #250cc8;
+}
+
+.mt {
+  margin-top: 100px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
 }
